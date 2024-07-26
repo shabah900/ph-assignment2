@@ -1,0 +1,262 @@
+ /* style for every border  */
+ .border {
+     border: 1px solid red;
+ }
+ /* style for all orange color  button  */
+ .same-button{
+    border-radius: 16px;
+    background-color: coral;
+    padding: 10px 30px;
+  }
+
+  /* style for all paragraph  */
+ .paragraph {
+    font-size: 12px;
+}
+
+  /* style for first page  */
+ .section1 {
+    width: 1440px;
+     height: 715px;
+     background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
+ }
+
+ .nav {
+     width: 100%;
+     display: flex;
+     gap: 40px;
+     justify-content: center;
+     padding: 0 auto 0 auto;
+
+ }
+ .taskbar {
+     border: 1px solid black;
+     border-radius: 16px;
+ }
+
+ .taskbar>ul {
+
+     display: flex;
+     gap: 25px;
+     padding: 2px 5px 2px 5px;
+ }
+
+
+ .nav-li a {
+     text-decoration: none;
+
+ }
+
+ .nav-li>li {
+     list-style: none;
+
+ }
+
+ .sec1-div {
+     display: flex;
+     gap: none;
+     padding: 0 100px 0 100px;
+ }
+
+ .sec1-div1 {
+     display: flex;
+     flex-direction: column;
+     height: 300px;
+     width: 300px;
+     /* margin-left: 150px; */
+ }
+
+ .sec1-div2 {
+     height: 300px;
+     width: 300px;
+     background-image: url(../assets/Images\ 2.png);
+
+ }
+
+ .sec1-div2>div {
+     background-color: beige;
+     height: 80px;
+     width: 120px;
+
+ }
+
+ .sec1-div2 {
+     height: 300px;
+     width: 300px;
+     background-image: url(../assets/Images\ 2.png);
+
+ }
+ /* style for page 2  */
+
+ .section2 {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+.round-img{
+    border-radius: 100%;
+    border: 2px solid gray;
+}
+ .sec2-card {
+     display: flex;
+     width: 75%;
+ }
+
+ .sec2-card>div {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding: 4px 10px;
+ }
+
+ /* style for page 3 */
+ .sec3-div {
+
+     border-radius: 16px;
+     display: flex;
+     width: 75%;
+     margin: 10px auto;
+
+ }
+
+ .sec3-div1 {
+
+     padding: 5%;
+ }
+
+ .sec3-div2>img {
+     width: 94%;
+     height: 94%;
+     border-radius: 16px;
+     padding: 3%;
+ }
+
+ /* style for page 4 */
+ .sec4-div {
+
+     width: 75%;
+     margin: 10px auto;
+
+ }
+
+ .exercise1 {
+     grid-area: exercise1;
+ }
+
+ .exercise2 {
+     grid-area: exercise2;
+ }
+
+ .exercise3 {
+     grid-area: exercise3;
+ }
+
+ .exercise4 {
+     grid-area: exercise4;
+ }
+
+ .exercise5 {
+     grid-area: exercise5;
+ }
+
+ .exercise6 {
+     grid-area: exercise6;
+     width: auto;
+     height: auto;
+ }
+
+ .six-img {
+     height: 70%;
+     width: 100%;
+     display: grid;
+     grid-template-areas: 
+     "exercise1 exercise2 exercise2 exercise2 exercise3"
+     "exercise4 exercise4 exercise5 exercise6 exercise6"  ;
+ }
+
+ /* style for page 5 */
+ .table {
+     width: 50%;
+ }
+
+ .calculate {
+     width: 50%;
+ }
+
+ table {
+     border-collapse: collapse;
+     margin: 0 auto;
+ }
+
+ .th {
+     border: 1px solid black;
+     padding: 5px 8px;
+ }
+
+ .td {
+     border: 1px solid black;
+     padding: 5px 8px;
+ }
+
+ .sec5-div {
+     display: flex;
+ }
+
+ /* style for page 6 */
+ .section6 {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+
+ .meet-team {
+     height: 350px;
+     width: 70%;
+     background-color: dimgray;
+     border-radius: 12px;
+ }
+
+ .img {
+     height: 45%;
+     width: 30%;
+     padding: 7px;
+     border-radius: 12px;
+ }
+
+ /* style for footer section  */
+ .footer-div {
+     display: flex;
+ }
+
+ .footer-div1 {
+     margin-left: 15%;
+     width: 35%;
+ }
+
+ .footer-div2 {
+     width: 20%;
+ }
+
+ .footer-div3 {
+     width: 20%;
+     margin-right: 10%
+ }
+
+ footer>p {
+     text-align: center;
+ }
+ #hr{
+    width: 85%;
+ }
+ @media screen and(max-width:576px){
+    .footer-div{
+        display: grid;
+        grid-template-columns: repeat(1,1fr) ;
+    }
+ }
+
+ /* .images2{
+    height: 260px;
+    width: 250px;
+    padding: 20px 25px 20px 25px ;
+} */
