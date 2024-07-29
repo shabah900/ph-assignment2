@@ -29,7 +29,7 @@
 
 /* style for first page  */
 .section1 {
-    width: 1440px;
+    
     height: 715px;
     background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
     /* background: rgb(185, 185, 185); */
@@ -218,7 +218,6 @@
 /* style for page 2  */
 
 .section2 {
-    width: 1440px;
     display: flex;
     flex-direction: column;
     align-items: center;
