@@ -1,4 +1,8 @@
 /* style for every border  */
+* {
+    /* background-color: black; */
+}
+
 .border {
     border: 1px solid red;
 }
@@ -29,7 +33,7 @@
 
 /* style for first page  */
 .section1 {
-    
+
     height: 715px;
     background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
     /* background: rgb(185, 185, 185); */
@@ -278,7 +282,7 @@
 
 }
 
-.sec3-div1{
+.sec3-div1 {
     width: 50%;
     padding: 5%;
 }
@@ -291,14 +295,15 @@
     margin-top: -20px;
 
 }
-.sec3-div1>p{
+
+.sec3-div1>p {
     padding-bottom: 20px;
 }
 
 .sec3-div2>img {
     width: 366px;
     height: 312px;
-  border-radius: 18px;
+    border-radius: 18px;
     margin: 20px 0 20px 0;
 }
 
@@ -346,31 +351,102 @@
 }
 
 /* style for page 5 */
+
+
+.sec5>h3 {
+    font-size: 48px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    margin-left: 30%;
+    margin-bottom: 16px;
+}
+
+.sec5>p {
+    margin-left: 30%;
+    margin-bottom: 70px;
+}
+
+.sec5-div {
+    display: flex;
+}
+
+/* sec5 table  */
 .table {
     width: 50%;
+    color: rgb(255, 255, 255);
+    background: rgb(34, 34, 34);
 }
 
-.calculate {
-    width: 50%;
+.table>h4 {
+    font-size: 28px;
+    font-weight: 900;
+    margin-left: 24%;
 }
 
-table {
+
+
+.bmi-chart-table {
+    width: 310px;
+    height: 216px;
     border-collapse: collapse;
     margin: 0 auto;
 }
 
 .th {
+    height: 45px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 500;
     border: 1px solid black;
-    padding: 5px 8px;
+    text-align: left;
+    padding-left: 6px;
 }
 
 .td {
+
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
     border: 1px solid black;
     padding: 5px 8px;
 }
 
-.sec5-div {
-    display: flex;
+/* sec5 calculate */
+.calculate {
+    width: 50%;
+    background: rgb(34, 34, 34);
+}
+
+.calculate>h4 {
+    font-size: 28px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+}
+
+.calculate>p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    padding-right: 30%;
+}
+
+.activity-factor {
+    width: 97.5%;
+}
+
+.td {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 12px 40px 12px 20px;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+    font-weight: 400;
+}
+.td>input{
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    flex: none;
 }
 
 /* style for page 6 */

@@ -11,9 +11,11 @@
 <body>
     <!-- first section  -->
     <section class="section1 border">
-        
+
         <div class="nav border ">
-            <div><h3 class=" border ">Fitness</h3></div>
+            <div>
+                <h3 class=" border ">Fitness</h3>
+            </div>
             <div class="taskbar">
                 <ul class="nav-li border ">
                     <li><a href="">Home</a></li>
@@ -54,24 +56,25 @@
     <!-- section for 2nd page  -->
     <section class="section2 border ">
         <h2>Change Your Habits</h2>
-        <p class="paragraph">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. </p>
+        <p class="paragraph">We believe fitness should be accessible to everyone, everywhere, regardless of income or
+            access to a gym. </p>
         <div class="sec2-card">
-            <div >
+            <div>
                 <img class="round-img" src="assets/image 3.png" alt="">
                 <h4>Movement</h4>
                 <p class="paragraph">We believe fitness should be accessible to everyone</p>
             </div>
-            <div >
+            <div>
                 <img class="round-img" src="assets/image 2.png" alt="">
                 <h4>Time</h4>
                 <p class="paragraph">We believe fitness should be accessible to everyone</p>
             </div>
-            <div >
+            <div>
                 <img class="round-img" src="assets/image 4.png" alt="">
                 <h4>Practice</h4>
                 <p class="paragraph">We believe fitness should be accessible to everyone</p>
             </div>
-            <div >
+            <div>
                 <img class="round-img" src="assets/image 5.png" alt="">
                 <h4>Weight Loss</h4>
                 <p class="paragraph">We believe fitness should be accessible to everyone</p>
@@ -115,18 +118,16 @@
     </section>
 
     <!-- section  for 5th page  -->
-    <section>
+    <section class="sec5 border ">
         <h3>BMI Calculator</h3>
         <p class="paragraph">We believe fitness should be accessible to everyone, everywhere, regardless of income or
+            <br>
             access to a gym. </p>
         <div class="sec5-div border">
             <!-- div for BMI chart  -->
             <div class="table">
-
-                <table>
-                    <caption>
-                        <h4>BMI Calculator Chart</h4>
-                    </caption>
+                <h4>BMI Calculator Chart</h4>
+                <table class="bmi-chart-table">
                     <thead>
                         <tr>
                             <th class="th">BMI</th>
@@ -154,18 +155,28 @@
 
                 </table>
             </div>
-            <div class=" Calculate border">
+            <div class="calculate border">
 
                 <h4>Calculate your BMI</h4>
 
                 <p class="paragraph">We believe fitness should be accessible to everyone, everywhere, regardless of
                     income or
                     access to a gym.</p>
-                <input placeholder="Height/cm" type="text">
-                <input placeholder="Weight/kg" type="text"> <br>
-                <input placeholder="Age" type="text">
-                <input placeholder="Sex" type="text"> <br>
-                <input placeholder="Select an activity factor" type="text"> <br>
+                <form action="">
+                    <table class="calculate-table">
+                        <tr>
+                            <td class="td"><input placeholder="Height/cm" type="text"></td>
+                            <td class="td"><input placeholder="Weight/kg" type="text"></td>
+                        </tr>
+                        <tr>
+                            <td class="td"><input placeholder="Age" type="text"></td>
+                            <td class="td"><input placeholder="Sex" type="text"></td>
+                        </tr>
+                        <tr >
+                            <td class="td" colspan="2"><input class="activity-factor" placeholder="Select an activity factor" type="text"></td>
+                        </tr>
+                    </table>
+                </form>
                 <button class="same-button">Calculate</button>
             </div>
         </div>
