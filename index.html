@@ -11,18 +11,13 @@
 <body>
     <!-- first section  -->
     <section class="section1 border">
-
         <div class="nav border ">
-            <div>
-                <h3 class=" border ">Fitness</h3>
-            </div>
-            <div class="taskbar">
-                <ul class="nav-li border ">
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Service</a></li>
-                    <li><a href=""> Contact</a></li>
-                    <li><a href="">About</a></li>
-                </ul>
+            <div><h3 class="fitness border ">Fitness</h3></div>
+            <div class="taskbar2">
+                <div class=" navigation "><a href="">Home</a>     </div>
+                <div class=" navigation "><a href="">Service</a>  </div>
+                <div class=" navigation "><a href=""> Contact</a> </div>
+                <div class=" navigation "><a href="">About</a>    </div>
             </div>
         </div>
         <div class="sec1-div border">
@@ -122,7 +117,8 @@
         <h3>BMI Calculator</h3>
         <p class="paragraph">We believe fitness should be accessible to everyone, everywhere, regardless of income or
             <br>
-            access to a gym. </p>
+            access to a gym.
+        </p>
         <div class="sec5-div border">
             <!-- div for BMI chart  -->
             <div class="table">
@@ -164,20 +160,36 @@
                     access to a gym.</p>
                 <form action="">
                     <table class="calculate-table">
-                        <tr>
-                            <td class="td"><input placeholder="Height/cm" type="text"></td>
-                            <td class="td"><input placeholder="Weight/kg" type="text"></td>
+                        <tr class="table-row">
+                            <td class="form-td"><input placeholder="Height/cm" type="text"></td>
+                            <td class="form-td"><input placeholder="Weight/kg" type="text"></td>
                         </tr>
                         <tr>
-                            <td class="td"><input placeholder="Age" type="text"></td>
-                            <td class="td"><input placeholder="Sex" type="text"></td>
+                            <td class="form-td"><input placeholder="Age" type="text"></td>
+                            <td class="form-td">
+                                <select class="select activity-sex" name="" id="sex">
+                                    <option value="" disabled selected>Sex</option>
+                                    <option value="Male">Male</option>
+                                    <option value="Female">Female</option>
+                                </select>
+
                         </tr>
-                        <tr >
-                            <td class="td" colspan="2"><input class="activity-factor" placeholder="Select an activity factor" type="text"></td>
+                        <tr>
+                            <td class="form-td" colspan="2">
+                                <select class="select activity-sex" name="activity-factor" id="activity">
+                                    <option value="" disabled selected>Select an activity-factor</option>
+                                    <option value="cycling">cycling
+                                    <option>
+                                    <option value="jogging">jogging</option>
+                                    <option value="jogging">jogging</option>
+                                    <option value="jogging">jogging</option>
+                                </select>
+
+                            </td>
                         </tr>
                     </table>
                 </form>
-                <button class="same-button">Calculate</button>
+                <button class="same-button calculate-button">Calculate</button>
             </div>
         </div>
     </section>
@@ -186,24 +198,49 @@
     <section class="section6">
         <h3>Meet Our Team</h3>
         <p class="paragraph">We believe fitness should be accessible to everyone, everywhere, regardless of income or
+            <br>
             access to a gym.</p>
         <div class="meet-team border">
-            <img class="img" src="assets/trainer1.png" alt="">
-            <img class="img" src="assets/trainer2.png" alt="">
-            <img class="img" src="assets/trainer3.png" alt="">
-            <img class="img" src="assets/trainer4.png" alt="">
-            <img class="img" src="assets/trainer5.png" alt="">
-            <img class="img" src="assets/trainer6.png" alt="">
 
+            <div class="team-div1">
+                <div class="team-div1-1 img">
+                    <h5>Jerome Bell</h5>
+                    <h6>Trainer</h6>
+                </div>
+                <div class="team-div1-2 img">
+                    <h5>Cameron Williamson</h5>
+                    <h6>Trainer</h6>
+                </div>
+                <div class="team-div1-3 img">
+                    <h5>Darrel Steward</h5>
+                    <h6>Trainer</h6>
+                </div>
+            </div>
+            <div class="team-div2">
+                <div class="team-div2-1 img">
+                    <h5>Dianne Russell</h5>
+                    <h6>Trainer</h6>
+                </div>
+                <div class="team-div2-2 img">
+                    <h5>Cody Fisher</h5>
+                    <h6>Trainer</h6>
+                </div>
+                <div class="team-div2-3 img">
+                    <h5>Theresa Webb</h5>
+                    <h6>Trainer</h6>
+                </div>
+            </div>
 
         </div>
     </section>
-    <footer>
+    <!-- footer section  -->
+  <section >
+    <div class="footer border">
         <div class="footer-div">
             <div class="footer-div1">
                 <h2>Fitness</h2>
-                <p>We believe fitness should be accessible to everyone,
-                    everywhere, regardless of income or access to a gym. With
+                <p>We believe fitness should be accessible to everyone,<br>
+                    everywhere, regardless of income or access to a gym. <br> With
                     hundreds of professional workouts.</p>
             </div>
             <div class="footer-div2">
@@ -224,8 +261,7 @@
         <hr id="hr">
         <p class="paragraph"> All right reserved @Fitness 2024</p>
 
-    </footer>
-
+    </div>
+  </section>
 </body>
-
 </html>

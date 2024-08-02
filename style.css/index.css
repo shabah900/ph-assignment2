@@ -46,20 +46,36 @@
     margin-right: 15%;
     justify-content: space-between;
     display: flex;
-
-
-
+    align-items: center;
 
 }
 
-.nav>h3 {
+.fitness {
     font-size: 36px;
     color: rgb(230, 83, 60);
     font-weight: 800;
 
 }
 
-.taskbar {
+
+
+
+.navigation a {
+    text-decoration: none;
+    color: green;
+}
+.navigation{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 39px;
+}
+.navigation:hover{
+    background: rgb(230, 83, 60);
+}
+.taskbar2 {
     position: static;
     width: 465px;
     height: 46px;
@@ -67,43 +83,16 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    /* padding: 4px; */
     flex: none;
-    margin: 0px 10px;
     box-sizing: border-box;
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    border: 1px solid purple;
     border-radius: 39px;
-
-
 }
 
-.taskbar>ul {
-
-    display: flex;
-    gap: 80px;
-    justify-items: center;
-    font-weight: 400;
-    font-size: 16px;
-}
-
-
-.nav-li a {
-    text-decoration: none;
-
-
-
-}
-
-.nav-li>li {
-    list-style: none;
-
-
-}
 
 .sec1-div {
     display: flex;
     gap: 50px;
-
     justify-content: center;
 
 }
@@ -115,7 +104,6 @@
 }
 
 .shape {
-
     font-weight: 400;
     font-size: 78px;
 }
@@ -304,7 +292,7 @@
     width: 366px;
     height: 312px;
     border-radius: 18px;
-    margin: 20px 0 20px 0;
+    margin: 20px 20px 20px 0;
 }
 
 /* style for page 4 */
@@ -390,6 +378,7 @@
     height: 216px;
     border-collapse: collapse;
     margin: 0 auto;
+    border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .th {
@@ -397,7 +386,7 @@
     color: rgb(255, 255, 255);
     font-size: 16px;
     font-weight: 500;
-    border: 1px solid black;
+    border: 1px solid rgba(255, 255, 255, 0.1);
     text-align: left;
     padding-left: 6px;
 }
@@ -407,7 +396,7 @@
     font-size: 14px;
     color: rgba(255, 255, 255, 0.5);
     font-weight: 400;
-    border: 1px solid black;
+    border: 1px solid rgba(255, 255, 255, 0.1);
     padding: 5px 8px;
 }
 
@@ -422,6 +411,7 @@
     font-weight: 900;
     color: rgb(255, 255, 255);
     margin-bottom: 10px;
+    margin-left: 10px;
 }
 
 .calculate>p {
@@ -429,48 +419,128 @@
     font-size: 14px;
     font-weight: 400;
     padding-right: 30%;
+    margin-left: 10px;
+}
+.calculate-table{
+   border-collapse: separate;
+   border-spacing: 10px  ;
+}
+.activity-sex {
+    width: 100%;
 }
 
-.activity-factor {
-    width: 97.5%;
-}
-
-.td {
+.form-td {
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.1);
     padding: 12px 40px 12px 20px;
     color: rgba(255, 255, 255, 0.6);
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 400 ;
+
 }
-.td>input{
-    border-radius: 8px;
+.table-row{
+
+
+}
+.form-td>input{
+    border: none;
     background: rgba(255, 255, 255, 0.1);
     flex: none;
 }
-
+.select{
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+}
+.calculate-button{
+    margin: 25px 0 30px 10px ;
+}
 /* style for page 6 */
 .section6 {
+    height: 930px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: black;
 }
-
+.section6>h3{
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.section6>p{
+   text-align: center;
+   margin-bottom: 40px;
+}
 .meet-team {
-    height: 350px;
-    width: 70%;
+    height: 604px;
+    width: 1050px;
+    padding: 20px;
     background-color: dimgray;
     border-radius: 12px;
 }
-
-.img {
-    height: 45%;
-    width: 30%;
-    padding: 7px;
-    border-radius: 12px;
+.team-div1{
+    display: flex;
+}
+.team-div2{
+    display: flex;
 }
 
+.img {
+    width: 327px;
+    height: 272px;
+    /* padding: 7px; */
+    border-radius: 18px;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin: 18px 10px;
+}
+.img>h5{
+      color: white ;
+      font-size: 20px;
+      font-weight: 900;
+      margin: 200px 0 -40px 30px ;
+}
+.img>h6{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 30px;
+}
+.team-div1-1{
+    background-image: url(../assets/trainer1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.team-div1-2{
+    background-image: url(../assets/trainer2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.team-div1-3{
+    background-image: url(../assets/trainer3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.team-div2-1{
+    background-image: url(../assets/trainer4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.team-div2-2{
+    background-image: url(../assets/trainer5.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.team-div2-3{
+    background-image: url(../assets/trainer6.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 /* style for footer section  */
+.footer{
+    background-color: black;
+    height: 490px;
+}
 .footer-div {
     display: flex;
 }
@@ -478,6 +548,18 @@
 .footer-div1 {
     margin-left: 15%;
     width: 35%;
+}
+.footer-div1>h2 {
+    color: rgb(230, 83, 60);
+    font-size: 70px;
+font-weight: 800;
+
+}
+.footer-div1>p {
+    color:rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+font-weight: 400;
+
 }
 
 .footer-div2 {
@@ -489,8 +571,21 @@
     margin-right: 10%
 }
 
-footer>p {
+.footer>p {
     text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.footer-div2>h4 , .footer-div3>h4{
+    font-weight: 700;
+    font-size: 32px;
+    color: rgb(255, 255, 255);
+}
+.footer-div2>p , .footer-div3>p{
+    font-weight: 400 ;
+    font-size: 23px;
+    color: rgba(255, 255, 255, 0.5);
 }
 
 #hr {
