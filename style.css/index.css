@@ -27,7 +27,7 @@
     color: rgba(255, 255, 255, 0.5);
     text-align: left;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 14px;
     /* color: rgba(255, 255, 255, 0.5); */
 }
 
@@ -64,7 +64,8 @@
     text-decoration: none;
     color: green;
 }
-.navigation{
+
+.navigation {
     height: 100%;
     width: 25%;
     display: flex;
@@ -72,9 +73,11 @@
     align-items: center;
     border-radius: 39px;
 }
-.navigation:hover{
+
+.navigation:hover {
     background: rgb(230, 83, 60);
 }
+
 .taskbar2 {
     position: static;
     width: 465px;
@@ -421,10 +424,12 @@
     padding-right: 30%;
     margin-left: 10px;
 }
-.calculate-table{
-   border-collapse: separate;
-   border-spacing: 10px  ;
+
+.calculate-table {
+    border-collapse: separate;
+    border-spacing: 10px;
 }
+
 .activity-sex {
     width: 100%;
 }
@@ -435,25 +440,27 @@
     padding: 12px 40px 12px 20px;
     color: rgba(255, 255, 255, 0.6);
     font-size: 16px;
-    font-weight: 400 ;
+    font-weight: 400;
 
 }
-.table-row{
 
+.table-row {}
 
-}
-.form-td>input{
+.form-td>input {
     border: none;
     background: rgba(255, 255, 255, 0.1);
     flex: none;
 }
-.select{
+
+.select {
     background-color: rgba(255, 255, 255, 0.1);
     border: none;
 }
-.calculate-button{
-    margin: 25px 0 30px 10px ;
+
+.calculate-button {
+    margin: 25px 0 30px 10px;
 }
+
 /* style for page 6 */
 .section6 {
     height: 930px;
@@ -462,16 +469,19 @@
     align-items: center;
     background-color: black;
 }
-.section6>h3{
+
+.section6>h3 {
     color: rgb(255, 255, 255);
     font-size: 48px;
     font-weight: 900;
     margin-bottom: 20px;
 }
-.section6>p{
-   text-align: center;
-   margin-bottom: 40px;
+
+.section6>p {
+    text-align: center;
+    margin-bottom: 40px;
 }
+
 .meet-team {
     height: 604px;
     width: 1050px;
@@ -479,10 +489,12 @@
     background-color: dimgray;
     border-radius: 12px;
 }
-.team-div1{
+
+.team-div1 {
     display: flex;
 }
-.team-div2{
+
+.team-div2 {
     display: flex;
 }
 
@@ -494,53 +506,63 @@
     background-color: rgba(0, 0, 0, 0.2);
     margin: 18px 10px;
 }
-.img>h5{
-      color: white ;
-      font-size: 20px;
-      font-weight: 900;
-      margin: 200px 0 -40px 30px ;
+
+.img>h5 {
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+    margin: 200px 0 -40px 30px;
 }
-.img>h6{
+
+.img>h6 {
     color: rgba(255, 255, 255, 0.7);
     font-size: 18px;
     font-weight: 400;
     margin-left: 30px;
 }
-.team-div1-1{
+
+.team-div1-1 {
     background-image: url(../assets/trainer1.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
-.team-div1-2{
+
+.team-div1-2 {
     background-image: url(../assets/trainer2.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
-.team-div1-3{
+
+.team-div1-3 {
     background-image: url(../assets/trainer3.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
-.team-div2-1{
+
+.team-div2-1 {
     background-image: url(../assets/trainer4.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
-.team-div2-2{
+
+.team-div2-2 {
     background-image: url(../assets/trainer5.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
-.team-div2-3{
+
+.team-div2-3 {
     background-image: url(../assets/trainer6.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 /* style for footer section  */
-.footer{
+.footer {
     background-color: black;
     height: 490px;
 }
+
 .footer-div {
     display: flex;
 }
@@ -549,16 +571,18 @@
     margin-left: 15%;
     width: 35%;
 }
+
 .footer-div1>h2 {
     color: rgb(230, 83, 60);
     font-size: 70px;
-font-weight: 800;
+    font-weight: 800;
 
 }
+
 .footer-div1>p {
-    color:rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.5);
     font-size: 14px;
-font-weight: 400;
+    font-weight: 400;
 
 }
 
@@ -577,13 +601,17 @@ font-weight: 400;
     font-size: 20px;
     color: rgba(255, 255, 255, 0.5);
 }
-.footer-div2>h4 , .footer-div3>h4{
+
+.footer-div2>h4,
+.footer-div3>h4 {
     font-weight: 700;
     font-size: 32px;
     color: rgb(255, 255, 255);
 }
-.footer-div2>p , .footer-div3>p{
-    font-weight: 400 ;
+
+.footer-div2>p,
+.footer-div3>p {
+    font-weight: 400;
     font-size: 23px;
     color: rgba(255, 255, 255, 0.5);
 }
@@ -592,10 +620,79 @@ font-weight: 400;
     width: 85%;
 }
 
-@media screen and(max-width:576px) {
-    .footer-div {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
+@media screen and (max-width:576px) {
+    .section6 {
+        height: 1460px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: black;
+    }
+
+    .section6>h3 {
+        color: rgb(255, 255, 255);
+        font-size: 32px;
+        font-weight: 900;
+        margin-bottom: 20px;
+    }
+
+    .section6>p {
+        text-align: center;
+        margin-bottom: 40px;
+        font-size: 14px;
+        font-weight: 400;
+        margin-top: -8px;
+        padding-left:100px ;
+        padding-right:100px;
+    }
+
+    .meet-team {
+        height: 1188px;
+        width: 353px;
+        padding: 20px;
+        background-color: dimgray;
+        border-radius: 12px;
+    }
+
+    .team-div1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .team-div2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .team-div1-1 {
+        display: none;
+    }
+
+    .team-div2-1 {
+        display: none;
+    }
+
+    .img {
+        width: 313px;
+        height: 272px;
+        /* padding: 7px; */
+        border-radius: 18px;
+        background-color: rgba(0, 0, 0, 0.2);
+        margin: 13px auto;
+    }
+
+    .img>h5 {
+        color: white;
+        font-size: 20px;
+        font-weight: 900;
+        margin: 200px 0 -40px 30px;
+    }
+
+    .img>h6 {
+        color: rgba(255, 255, 255, 0.7);
+        font-size: 18px;
+        font-weight: 400;
+        margin-left: 30px;
     }
 }
 
