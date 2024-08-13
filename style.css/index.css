@@ -3,9 +3,9 @@
     /* background-color: black; */
 }
 
-.border {
+/* .border {
     border: 1px solid red;
-}
+} */
 
 /* style for all orange color  button  */
 .same-button {
@@ -17,6 +17,7 @@
     color: rgb(255, 255, 255);
     font-size: 18px;
     font-weight: 600;
+    border: none;
 }
 
 /* *{
@@ -32,6 +33,9 @@
 }
 
 /* style for first page  */
+.first{
+    background-color: black;
+}
 .section1 {
 
     height: 715px;
@@ -62,7 +66,7 @@
 
 .navigation a {
     text-decoration: none;
-    color: green;
+    color: rgb(255, 255, 255);
 }
 
 .navigation {
@@ -88,7 +92,7 @@
     align-items: center;
     flex: none;
     box-sizing: border-box;
-    border: 1px solid purple;
+    border: 1px solid rgba(255, 255, 255, 0.1);;
     border-radius: 39px;
 }
 
@@ -101,6 +105,7 @@
 }
 
 .sec1-div1>h1 {
+    color: rgb(255, 255, 255);
     font-size: 78px;
     font-weight: 900;
     margin-bottom: 20px;
@@ -119,6 +124,8 @@
     color: rgb(255, 255, 255);
     font-size: 18px;
     font-weight: 600;
+    background-color: black;
+    border: 1px solid white;
 }
 
 .sec1-div1 {
@@ -141,7 +148,7 @@
     backdrop-filter: blur(20px);
     background: rgba(255, 255, 255, 0.1);
     padding-left: 20px;
-    padding-top: 10px;
+    padding-top: 2px;
 
 }
 
@@ -213,6 +220,7 @@
 /* style for page 2  */
 
 .section2 {
+    height: 522px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -231,6 +239,7 @@
     font-weight: 400;
     margin-top: -20px;
     margin-bottom: 30px;
+    width: 502px;
 }
 
 .section2 p {
@@ -262,13 +271,18 @@
 }
 
 /* style for page 3 */
+.section3{
+    background-color: black;
+    height: 450px;
+    
+}
 .sec3-div {
 
     border-radius: 16px;
     display: flex;
     width: 75%;
     height: 355px;
-    margin: 50px auto;
+    margin: 0 auto;
     background: rgb(34, 34, 34);
 
 }
@@ -303,7 +317,7 @@
 .sec4-div {
 
     width: 75%;
-    margin: 10px auto;
+    margin: 0px auto;
 
 }
 
@@ -344,7 +358,10 @@
 
 /* style for page 5 */
 
-
+.sec5{
+    background-color: black;
+    margin-top: -80px;
+}
 .sec5>h3 {
     font-size: 48px;
     font-weight: 900;
@@ -449,15 +466,19 @@
 
 .form-td>input {
     border: none;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, -0.9);
     flex: none;
 }
 
 .select {
-    background-color: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, -0.9);
     border: none;
 }
 
+.select option{
+    background-color: black;
+}
 .calculate-button {
     margin: 25px 0 30px 10px;
 }
@@ -561,6 +582,7 @@
 /* style for page 7  */
 .sec7 {
     background-color: black;
+    margin-top: -40px;
 }
 
 .sec7>h2 {
@@ -628,6 +650,8 @@
 .footer-section{
     background-color: black;
     height: 500px;
+    display: flex;
+    flex-direction: column;
 }
 
 .footer {
@@ -692,6 +716,7 @@
 
 #hr {
     width: 85%;
+    border: 2px solid rgba(255, 255, 255, 0.1);
 }
 
 /* media query for small device  */
