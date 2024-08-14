@@ -99,7 +99,7 @@
 
 .sec1-div {
     display: flex;
-    gap: 50px;
+    gap: 90px;
     justify-content: center;
 
 }
@@ -922,7 +922,7 @@
 
     .section2 {
         display: flex;
-
+        height: 1290px;
         flex-direction: column;
         text-align: center;
         align-items: center;
@@ -980,14 +980,19 @@
 
 
     /* style for section  3 */
-
+     .section3{
+        height: 545px;
+        margin-top: -52px;
+        margin-bottom: 75px;
+    }
+     }
     .sec3-div {
 
         border-radius: 16px;
         display: flex;
         flex-direction: column;
         width: 353px;
-        height: 531px;
+        height: 513px;
         margin: 50px auto;
         background: rgb(34, 34, 34);
 
@@ -1033,6 +1038,136 @@
         margin: 20px 20px 20px 0;
         padding-left: 10px;
 
+    }
+
+    /* style for section 5  */
+    .sec5{
+        background-color: black;
+        margin-top: -80px;
+    }
+    .sec5>h3 {
+        font-size: 32px;
+        font-weight: 900;
+        color: rgb(255, 255, 255);
+        margin-left: 8%;
+        margin-bottom: 16px;
+    }
+    
+    .sec5>p {
+        margin-left: 8%;
+        margin-bottom: 38px;
+    }
+    
+    .sec5-div {
+        display: flex;
+        flex-direction: column;
+        width: 816px;
+    }
+    
+    /* sec5 table  */
+    .table {
+        width: 50%;
+        color: rgb(255, 255, 255);
+        background: rgb(34, 34, 34);
+    }
+    
+    .table>h4 {
+        font-size: 16px;
+        font-weight: 900;
+        margin-left: 8%;
+    }
+    
+    
+    
+    .bmi-chart-table {
+        width: 310px;
+        height: 216px;
+        border-collapse: collapse;
+        margin-left: 8%;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    
+    .th {
+        height: 45px;
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+        font-weight: 500;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        text-align: left;
+        padding-left: 6px;
+    }
+    
+    .td {
+    
+        font-size: 14px;
+        color: rgba(255, 255, 255, 0.5);
+        font-weight: 400;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        padding: 5px 8px;
+    }
+    
+    /* sec5 calculate */
+    .calculate {
+        width: 50%;
+        background: rgb(34, 34, 34);
+    }
+    
+    .calculate>h4 {
+        font-size: 28px;
+        font-weight: 900;
+        color: rgb(255, 255, 255);
+        margin-bottom: 10px;
+        margin-left: 8%;
+    }
+    
+    .calculate>p {
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 14px;
+        font-weight: 400;
+        padding-right: 30%;
+        margin-left: 8%;
+    }
+    
+    .calculate-table {
+        border-collapse: separate;
+        border-spacing: 10px;
+    }
+    
+    .activity-sex {
+        width: 100%;
+    }
+    
+    .form-td {
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.1);
+        padding: 12px 40px 12px 20px;
+        color: rgba(255, 255, 255, 0.6);
+        font-size: 16px;
+        font-weight: 400;
+    
+    }
+    
+    .table-row {
+        width: 200px;
+    }
+    
+    .form-td>input {
+        border: none;
+        background: rgba(255, 255, 255, -0.9);
+        flex: none;
+    }
+    
+    .select {
+        color: rgba(255, 255, 255, 0.6);
+        background-color: rgba(255, 255, 255, -0.9);
+        border: none;
+    }
+    
+    .select option{
+        background-color: black;
+    }
+    .calculate-button {
+        margin: 25px 0 30px 10px;
     }
 
     /* style for section 6  */
