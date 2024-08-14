@@ -33,9 +33,10 @@
 }
 
 /* style for first page  */
-.first{
+.first {
     background-color: black;
 }
+
 .section1 {
 
     height: 715px;
@@ -92,7 +93,8 @@
     align-items: center;
     flex: none;
     box-sizing: border-box;
-    border: 1px solid rgba(255, 255, 255, 0.1);;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    ;
     border-radius: 39px;
 }
 
@@ -271,15 +273,17 @@
 }
 
 /* style for page 3 */
-.section3{
+.section3 {
     background-color: black;
     height: 450px;
-    
+
 }
+
 .sec3-div {
 
     border-radius: 16px;
     display: flex;
+    flex-direction: row;
     width: 75%;
     height: 355px;
     margin: 0 auto;
@@ -358,10 +362,11 @@
 
 /* style for page 5 */
 
-.sec5{
+.sec5 {
     background-color: black;
     margin-top: -80px;
 }
+
 .sec5>h3 {
     font-size: 48px;
     font-weight: 900;
@@ -448,6 +453,10 @@
     border-spacing: 10px;
 }
 
+.table-row {
+    width: 100px;
+}
+
 .activity-sex {
     width: 100%;
 }
@@ -459,6 +468,7 @@
     color: rgba(255, 255, 255, 0.6);
     font-size: 16px;
     font-weight: 400;
+    width: 178px;
 
 }
 
@@ -476,9 +486,10 @@
     border: none;
 }
 
-.select option{
+.select option {
     background-color: black;
 }
+
 .calculate-button {
     margin: 25px 0 30px 10px;
 }
@@ -647,7 +658,7 @@
 }
 
 /* style for footer section  */
-.footer-section{
+.footer-section {
     background-color: black;
     height: 500px;
     display: flex;
@@ -789,7 +800,7 @@
         gap: 50px;
         justify-content: center;
         margin-left: 20px;
-        margin-top: 52px;
+        margin-top: -37px;
 
     }
 
@@ -833,8 +844,8 @@
         display: flex;
         flex-direction: column;
         height: 338px;
-        width: 500px;
-        /* margin-left: 150px; */
+        width: 351px;
+
     }
 
 
@@ -980,12 +991,12 @@
 
 
     /* style for section  3 */
-     .section3{
+    .section3 {
         height: 545px;
         margin-top: -52px;
         margin-bottom: 75px;
     }
-     }
+
     .sec3-div {
 
         border-radius: 16px;
@@ -1041,10 +1052,11 @@
     }
 
     /* style for section 5  */
-    .sec5{
+    .sec5 {
         background-color: black;
         margin-top: -80px;
     }
+
     .sec5>h3 {
         font-size: 32px;
         font-weight: 900;
@@ -1052,33 +1064,34 @@
         margin-left: 8%;
         margin-bottom: 16px;
     }
-    
+
     .sec5>p {
+        width: 292px;
         margin-left: 8%;
         margin-bottom: 38px;
     }
-    
+
     .sec5-div {
         display: flex;
         flex-direction: column;
         width: 816px;
     }
-    
+
     /* sec5 table  */
     .table {
         width: 50%;
         color: rgb(255, 255, 255);
         background: rgb(34, 34, 34);
     }
-    
+
     .table>h4 {
         font-size: 16px;
         font-weight: 900;
         margin-left: 8%;
     }
-    
-    
-    
+
+
+
     .bmi-chart-table {
         width: 310px;
         height: 216px;
@@ -1086,7 +1099,7 @@
         margin-left: 8%;
         border: 1px solid rgba(255, 255, 255, 0.1);
     }
-    
+
     .th {
         height: 45px;
         color: rgb(255, 255, 255);
@@ -1096,30 +1109,34 @@
         text-align: left;
         padding-left: 6px;
     }
-    
+
     .td {
-    
+
         font-size: 14px;
         color: rgba(255, 255, 255, 0.5);
         font-weight: 400;
         border: 1px solid rgba(255, 255, 255, 0.1);
         padding: 5px 8px;
     }
-    
+
     /* sec5 calculate */
+    .form {
+        width: 500px;
+    }
+
     .calculate {
         width: 50%;
         background: rgb(34, 34, 34);
     }
-    
+
     .calculate>h4 {
-        font-size: 28px;
+        font-size: 16px;
         font-weight: 900;
         color: rgb(255, 255, 255);
         margin-bottom: 10px;
         margin-left: 8%;
     }
-    
+
     .calculate>p {
         color: rgba(255, 255, 255, 0.5);
         font-size: 14px;
@@ -1127,16 +1144,16 @@
         padding-right: 30%;
         margin-left: 8%;
     }
-    
+
     .calculate-table {
         border-collapse: separate;
         border-spacing: 10px;
     }
-    
+
     .activity-sex {
         width: 100%;
     }
-    
+
     .form-td {
         border-radius: 8px;
         background: rgba(255, 255, 255, 0.1);
@@ -1144,28 +1161,29 @@
         color: rgba(255, 255, 255, 0.6);
         font-size: 16px;
         font-weight: 400;
-    
+
     }
-    
+
     .table-row {
         width: 200px;
     }
-    
+
     .form-td>input {
         border: none;
         background: rgba(255, 255, 255, -0.9);
         flex: none;
     }
-    
+
     .select {
         color: rgba(255, 255, 255, 0.6);
         background-color: rgba(255, 255, 255, -0.9);
         border: none;
     }
-    
-    .select option{
+
+    .select option {
         background-color: black;
     }
+
     .calculate-button {
         margin: 25px 0 30px 10px;
     }
@@ -1187,6 +1205,7 @@
     }
 
     .section6>p {
+        width: 260px;
         text-align: center;
         margin-bottom: 40px;
         font-size: 14px;
@@ -1194,11 +1213,12 @@
         margin-top: -8px;
         padding-left: 100px;
         padding-right: 100px;
+
     }
 
     .meet-team {
         height: 1188px;
-        width: 353px;
+        width: 322px;
         padding: 20px;
         background-color: dimgray;
         border-radius: 12px;
@@ -1244,10 +1264,161 @@
         font-weight: 400;
         margin-left: 30px;
     }
-}
 
-/* .images2{
-    height: 260px;
-    width: 250px;
-    padding: 20px 25px 20px 25px ;
-} */
+    .images2 {
+        height: 260px;
+        width: 250px;
+        padding: 20px 25px 20px 25px;
+    }
+
+    /* style for page 7  */
+    .sec7 {
+        background-color: black;
+        margin-top: -40px;
+    }
+
+    .sec7>h2 {
+        font-weight: 900;
+        font-size: 32px;
+        color: rgb(255, 255, 255);
+        text-align: center;
+    }
+
+    .sec7-div {
+        height: 1116px;
+        display: flex;
+        flex-direction: column;
+        margin: 0px 10px;
+        gap: 20px;
+        align-items: center;
+
+    }
+
+    .sec7-div hr {
+        width: 50%;
+
+    }
+
+    .sec7-card {
+        height: 300px;
+        width: 295px;
+        text-align: center;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 12px;
+    }
+
+    .sec7-div h4 {
+        color: rgb(255, 255, 255);
+        font-size: 32px;
+        font-weight: 700;
+        margin-bottom: -17px;
+        margin-top: 25px;
+    }
+    }
+
+    .sec7-div h3 {
+        color: #ec8676;
+        font-size: 26px;
+        font-weight: 400;
+        margin-bottom: 11px;
+    }
+
+    .sec7-div p {
+        color: rgba(255, 255, 255, 0.5);
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 400;
+
+    }
+
+    .sec7-div button {
+        width: 171px;
+        height: 39px;
+        border-radius: 42px;
+        background: rgb(230, 83, 60);
+        padding: 0px 30px;
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+        font-weight: 600;
+        margin-top: 10px;
+    }
+
+    /* style for footer section  */
+    .footer-section {
+        background-color: black;
+        height: 1230px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer {
+        background: rgba(255, 255, 255, 0.1);
+        height: 990px;
+        margin: 50px 0px;
+    }
+
+    .footer-div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-div1 {
+        margin-left: 15%;
+        width: 35%;
+    }
+
+    .footer-div1>h2 {
+        color: rgb(230, 83, 60);
+        font-size: 70px;
+        font-weight: 800;
+        margin-bottom: 20px;
+        margin-left: -40px;
+
+    }
+
+    .footer-div1>p {
+        width: 317px;
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 14px;
+        font-weight: 400;
+        margin-left: -40px;
+
+    }
+
+    .footer-div2 {
+        width: 50%;
+    margin-left: 25px;
+    }
+
+    .footer-div3 {
+        width: 50%;
+    margin-left: 25px;
+    }
+
+    .footer>p {
+        text-align: center;
+        font-weight: 400;
+        font-size: 22px;
+        color: rgba(255, 255, 255, 0.5);
+    }
+
+    .footer-div2>h4,
+    .footer-div3>h4 {
+        font-weight: 700;
+        font-size: 32px;
+        color: rgb(255, 255, 255);
+    }
+
+    .footer-div2>p,
+    .footer-div3>p {
+        font-weight: 400;
+        font-size: 23px;
+        color: rgba(255, 255, 255, 0.5);
+    }
+
+    #hr {
+        width: 85%;
+        border: 2px solid rgba(255, 255, 255, 0.1);
+    }
+
+}
