@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>assignment 2</title>
+                    <title>assignment 2</title>
     <link rel="stylesheet" href="style.css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"  />
 </head>
 
 <body>
@@ -13,20 +14,27 @@
     <section class="first border">
         <div class="section1 border">
         <div class="nav border">
-            <div><h3 class="fitness border ">Fitness</h3></div>
+            <div class="logo"><h3 class="fitness border ">Fitness</h3></div>
             <div class="taskbar2">
-                <div class=" navigation "><a href="">Home</a>     </div>
+                <div class=" navigation home"><a href="">Home</a>     </div>
                 <div class=" navigation "><a href="">Service</a>  </div>
                 <div class=" navigation "><a href=""> Contact</a> </div>
                 <div class=" navigation "><a href="">About</a>    </div>
             </div>
+                <div class="menu border">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
         </div>
+        
         <div class="sec1-div border">
-            <div class="sec1-div1 border">
-                <h1>Get body in <br> <span class="shape">shape</span> & stay <br> healthy</h1>
+            <div class="sec1-div1 border"> 
+                <h1>Get body in  </h1>
+                <h2><span class="shape">shape</span> & stay   </h1>
+                <h1>healthy</h1>
                 <p class="paragraph">A huge selection of health and fitness content, healthy recipes and transformation
                     stories to help you get fit and stay fit!</p>
-                <div>
+                <div class="sec1-div1-button">
                     <button class="join-now same-button">Join Club Now! </button>
                     <button class="download-app">Download App</button>
                 </div>
@@ -140,10 +148,11 @@
                 <p class="paragraph">We believe fitness should be accessible to everyone, everywhere, regardless of
                     income or
                     access to a gym.</p>
-                   
-                   <div class="form"> 
-                    <form action="">
+                      <!-- form for desktop  -->
+                   <div class="form-desktop"> 
+                    <form action="" class="calculate-form">
                     <table class="calculate-table">
+                        <tbody class="tbody">
                         <tr class="table-row">
                             <td class="form-td"><input placeholder="Height/cm" type="text"></td>
                             <td class="form-td"><input placeholder="Weight/kg" type="text"></td>
@@ -171,6 +180,47 @@
 
                             </td>
                         </tr>
+                    </tbody>
+                    </table>
+
+                    </form>
+                </div>
+                <div class="form-phone"> 
+                    <form action="" class="calculate-form">
+                    <table class="calculate-table">
+                        <tbody class="tbody">
+                        <tr class="table-row">
+                            <td class="form-td"><input placeholder="Height/cm" type="text"></td>
+                            
+                        </tr>
+                        <tr  class="table-row"><td class="form-td"><input placeholder="Weight/kg" type="text"></td></tr>
+                        <tr>
+                            <td class="form-td"><input placeholder="Age" type="text"></td>
+                            
+                        </tr>
+                        <tr>
+                            <td class="form-td">
+                                <select class="select activity-sex" name="" id="sex">
+                                    <option value="" disabled selected>Sex</option>
+                                    <option value="Male">Male</option>
+                                    <option value="Female">Female</option>
+                                </select>
+
+                        </tr>
+                        <tr>
+                            <td class="form-td" colspan="2">
+                                <select class="select activity-sex" name="activity-factor" id="activity">
+                                    <option value="" disabled selected>Select an activity-factor</option>
+                                    <option value="cycling">cycling
+                                    <option>
+                                    <option value="jogging">jogging</option>
+                                    <option value="swimming">swimming</option>
+                                    <option value="skipping">skipping</option>
+                                </select>
+
+                            </td>
+                        </tr>
+                    </tbody>
                     </table>
 
                     </form>
@@ -291,5 +341,6 @@
     </div>
     </div>
   </section>
+  
 </body>
 </html>

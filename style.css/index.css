@@ -1,6 +1,17 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+@font-face{
+    font-family: 'Miama';
+    src: url(../fonts/Miama.ttf);
+}
+
 /* style for every border  */
-* {
+body{
     /* background-color: black; */
+    margin: 0px;
+    padding: 0px;
+    font-family: "Inter", sans-serif;
 }
 
 /* .border {
@@ -39,16 +50,16 @@
 
 .section1 {
 
-    height: 715px;
+    /* height: 715px; */
     background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
     /* background: rgb(185, 185, 185); */
 }
 
 .nav {
 
-    width: 70%;
-    margin-left: 15%;
-    margin-right: 15%;
+    width: 81%;
+    margin-left: 12%;
+    /* margin-right: 15%; */
     justify-content: space-between;
     display: flex;
     align-items: center;
@@ -56,6 +67,7 @@
 }
 
 .fitness {
+    font-style: italic;
     font-size: 36px;
     color: rgb(230, 83, 60);
     font-weight: 800;
@@ -79,7 +91,7 @@
     border-radius: 39px;
 }
 
-.navigation:hover {
+.home {
     background: rgb(230, 83, 60);
 }
 
@@ -107,17 +119,33 @@
 }
 
 .sec1-div1>h1 {
+    position: static;
+    height: 282px;
     color: rgb(255, 255, 255);
     font-size: 78px;
     font-weight: 900;
-    margin-bottom: 20px;
+    margin-bottom: 41px;
+    align-self: stretch;
 }
-
-.shape {
-    font-weight: 400;
+.sec1-div1>h2 {
+    position: static;
+    height: 282px;
+    color: rgb(255, 255, 255);
     font-size: 78px;
+    font-weight: 900;
+    margin: -116px 0px;
+    align-self: stretch;
 }
-
+.shape {
+   
+    font-weight: 400;
+    font-size: 2em;
+    font-family: Miama;
+    
+}
+.sec1-div1-button{
+    margin-top: 20px;
+}
 .download-app {
     width: 224px;
     height: 54px;
@@ -432,6 +460,9 @@
     background: rgb(34, 34, 34);
 }
 
+.form-phone{
+    /* display: none; */
+}
 .calculate>h4 {
     font-size: 28px;
     font-weight: 900;
@@ -692,6 +723,7 @@
     color: rgba(255, 255, 255, 0.5);
     font-size: 14px;
     font-weight: 400;
+    width: 325px;
 
 }
 
@@ -738,11 +770,16 @@
 
     .section1 {
 
-        height: 1149px;
+        /* height: 1149px; */
         background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
         /* background: rgb(185, 185, 185); */
     }
 
+
+.menu {
+    margin-left: 220px;
+    color: white;
+}
     .nav {
 
         width: 70%;
@@ -755,16 +792,15 @@
     }
 
     .fitness {
+        font-style: italic;
         font-size: 36px;
         color: rgb(230, 83, 60);
         font-weight: 800;
 
     }
 
-    .navigation a {
-        text-decoration: none;
-        color: green;
-    }
+
+
 
     .navigation {
         height: 100%;
@@ -807,8 +843,18 @@
     .sec1-div1>h1 {
         font-size: 36px;
         font-weight: 900;
-        margin-bottom: 20px;
+        margin-bottom: 35px;
     }
+    .sec1-div1>h2 {
+        position: static;
+        height: 282px;
+        color: rgb(255, 255, 255);
+        font-size: 36px;
+        font-weight: 900;
+        margin: -46px 0px;
+        align-self: stretch;
+    }
+
 
     .sec1-div1>p {
         width: 192px;
@@ -1074,12 +1120,12 @@
     .sec5-div {
         display: flex;
         flex-direction: column;
-        width: 816px;
+        /* width: 816px; */
     }
 
     /* sec5 table  */
     .table {
-        width: 50%;
+        width: 100%;
         color: rgb(255, 255, 255);
         background: rgb(34, 34, 34);
     }
@@ -1121,11 +1167,17 @@
 
     /* sec5 calculate */
     .form {
-        width: 500px;
+        /* width: 500px; */
     }
 
+    .form-desktop{
+        display: none;
+    }
+    .form-phone{
+        /* display: none; */
+    }
     .calculate {
-        width: 50%;
+        width: 100%;
         background: rgb(34, 34, 34);
     }
 
@@ -1144,10 +1196,14 @@
         padding-right: 30%;
         margin-left: 8%;
     }
+.calculate-form{
+    width: 100%;
+}
 
     .calculate-table {
         border-collapse: separate;
         border-spacing: 10px;
+        padding-left: 22px;
     }
 
     .activity-sex {
@@ -1165,7 +1221,7 @@
     }
 
     .table-row {
-        width: 200px;
+        /* width: 200px; */
     }
 
     .form-td>input {
@@ -1185,7 +1241,7 @@
     }
 
     .calculate-button {
-        margin: 25px 0 30px 10px;
+        margin: 25px 0 30px 31px;
     }
 
     /* style for section 6  */
@@ -1211,8 +1267,8 @@
         font-size: 14px;
         font-weight: 400;
         margin-top: -8px;
-        padding-left: 100px;
-        padding-right: 100px;
+        /* padding-left: 100px;
+        padding-right: 100px; */
 
     }
 
@@ -1421,4 +1477,16 @@
         border: 2px solid rgba(255, 255, 255, 0.1);
     }
 
+}
+
+@media screen and (min-width:576px) {
+    .form-phone{
+        display: none;
+    }
+    .menu{
+        display: none;
+        width: 100px;
+        height: 50px;
+        color: white;
+    }
 }
