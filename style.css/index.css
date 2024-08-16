@@ -46,17 +46,19 @@ body{
 /* style for first page  */
 .first {
     background-color: black;
+    /* background-color: linear-gradient(180.00deg,rgba(0,0,0,1),rgba(0,0,0,.7),rgba(0,0,0,.7),rgba(0,0,0,.7),rgba(0,0,0,1)100%); */
 }
 
 .section1 {
-
+   
     /* height: 715px; */
-    background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
+    /* background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%); */
     /* background: rgb(185, 185, 185); */
+    /* background-color: linear-gradient(180.00deg,rgba(0,0,0,1),rgba(0,0,0,.7),rgba(0,0,0,.7),rgba(0,0,0,.7),rgba(0,0,0,1)100%); */
 }
 
 .nav {
-
+    background-color: black;
     width: 81%;
     margin-left: 12%;
     /* margin-right: 15%; */
@@ -106,7 +108,6 @@ body{
     flex: none;
     box-sizing: border-box;
     border: 1px solid rgba(255, 255, 255, 0.1);
-    ;
     border-radius: 39px;
 }
 
@@ -115,6 +116,7 @@ body{
     display: flex;
     gap: 90px;
     justify-content: center;
+    
 
 }
 
